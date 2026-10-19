@@ -1,0 +1,18 @@
+{
+  "name": "elysium-arena",
+  "version": "0.1.0",
+  "description": "Paper-trading competitions with risk-adjusted scoring on Elysium testnet",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node"
+  },
+  "keywords": ["elysium", "hyperliquid", "trading", "competition", "defi"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
